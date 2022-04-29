@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+}
+
+.form-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>input, form>button {
+    height: 40px;
+    width: 360px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #000;
+}
+
+form>button {
+    max-width: 100px;
+    align-self: center;
+}
